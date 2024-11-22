@@ -76,6 +76,8 @@ def price_filter(db_name, price_limit, quantity_limit):
                 print("Найденные товары:")
                 for row in rows:
                     print(row)
+            else:
+                print('Товарны не найдены.')
     except sqlite3.Error as e:
         print(e)
 
