@@ -15,8 +15,8 @@ def select_city(db_name):
         print(e)
 
 def select_student(db_name,city_id):
-    sql = """SELECT s.first_name,
-    s.last_name,
+    sql = """SELECT s.title,
+    c.title,
     c.title AS country,
     ci.title AS city,
     ci.area 
