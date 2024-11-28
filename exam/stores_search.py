@@ -34,7 +34,7 @@ def select_stores(db_name,store_id):
             if products:
                 print(f"продукты в магазине ID {store_id}")
                 for product in products:
-                    print(f'Названия: {product[0]}')
+                    print(f'Название: {product[0]}')
                     print(f"Категория: {product[1]}")
                     print(f"Цена: {product[2]}")
                     print(f"Количество на складе: {product[3]}")
@@ -62,7 +62,7 @@ def search_product():
             if 1 <= search <= 3:
                 select_stores(database_name,search)
             else:
-                print("Ошибка: введите ID города в диапозоне от 1 до 7")
+                print("Ошибка: введите ID города в диапозоне от 1 до 3")
 
         except ValueError as e:
             print(f'Ошибка: {e}')

@@ -28,15 +28,15 @@ database_name = 'categ_prod_stores.db'
 # insert_stores(database_name,(2),('GLOBUS'))
 # insert_stores(database_name,(3),('SPAR'))
 
-insert_products(database_name,('Fries Chiken'),'FD',210,2,1)
-insert_products(database_name,('Bread'),'FD',12,2,1)
-insert_products(database_name,('Sauce'),'FD',15,2,1)
-insert_products(database_name,('JEANS'),'CL',11,2,2)
-insert_products(database_name,('Jeans Jacket'),'CL',100,2,2)
-insert_products(database_name,('Nike Air Yeezy'),'CL',110,2,2)
-insert_products(database_name,('Video Card GeForce 999'),'EL',14,2,3)
-insert_products(database_name,('IPhone 22 ULTRA PRO MAX'),'EL',150,2,3)
-insert_products(database_name,('Xiaomi TOP'),'EL',140,2,3)
+# insert_products(database_name,('Fries Chiken'),'FD',210,2,1)
+# insert_products(database_name,('Bread'),'FD',12,2,1)
+# insert_products(database_name,('Sauce'),'FD',15,2,1)
+# insert_products(database_name,('JEANS'),'CL',11,2,2)
+# insert_products(database_name,('Jeans Jacket'),'CL',100,2,2)
+# insert_products(database_name,('Nike Air Yeezy'),'CL',110,2,2)
+# insert_products(database_name,('Video Card GeForce 999'),'EL',14,2,3)
+# insert_products(database_name,('IPhone 22 ULTRA PRO MAX'),'EL',150,2,3)
+# insert_products(database_name,('Xiaomi TOP'),'EL',140,2,3)
 
 
 
