@@ -32,12 +32,12 @@ def select_stores(db_name,store_id):
             products = cursor.fetchall()
 
             if products:
-                print(f"продукты в магазине ID {store_id} - {products[0][1]}")
-                for products in products:
-                    print(f'Названия: {products[0]}')
-                    print(f"Категория: {products[1]}")
-                    print(f"Цена: {products[2]}")
-                    print(f"Количество на складе: {products[3]}")
+                print(f"продукты в магазине ID {store_id}")
+                for product in products:
+                    print(f'Названия: {product[0]}')
+                    print(f"Категория: {product[1]}")
+                    print(f"Цена: {product[2]}")
+                    print(f"Количество на складе: {product[3]}")
                     print("-" * 40)
             else:
                 print(f"Продукты в магазине ID {store_id} не найдены.")
